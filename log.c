@@ -14,7 +14,7 @@ int lg(int N) {
 int main() {
    int N = 1000; // Exemplo de valor para N
    int result = lg(N); // Chamando a função lg
-   printf("O logaritmo na base 2 de %d é %d\n", N, result);
+   printf("O logaritmo na base 2 de %d é %d", N, result);
    return 0;
 }
 
